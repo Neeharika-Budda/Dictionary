@@ -10,20 +10,20 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 105vh;
-  background: linear-gradient(90deg, rgb(22, 255, 19) 0%, rgb(255, 255, 255) 25%, rgb(255, 100, 3) 100%);
+  background: linear-gradient(90deg, rgb(22, 255, 19) 0%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 100%);
   /* Background color of the page  */
 }
 
 ::selection{
   color: rgb(12, 12, 12);
-  background: #e3e3e3;
+  background: #000000;
 }
 
 /* Box properties  */
 .stylish{
   width: 500px;
   border-radius: 10px;
-  background: rgba(169, 169, 169, 0.633); /* Grey color for the box */
+  background: rgba(0, 0, 0, 0.633); /* Grey color for the box */
   padding: 25px 28px 30px;
   box-shadow: 8px 8px 20px rgba(59, 61, 61, 0.801);  
   /* Shadow around the box */
@@ -48,7 +48,7 @@ body{
   font-size: 16px;
   border-radius: 10px;
   padding: 0 52px;
-  border: 5px solid rgb(0, 0, 0);
+  border: 5px solid #000000;
 }
 
 .search input:focus{
@@ -57,7 +57,7 @@ body{
 }
 
 .search input::placeholder{
-  color: #B8B8B8;
+  color: #ffffff;
 }
 
 .search :where(i, span){
@@ -91,7 +91,7 @@ body{
 /* text info given at the bottom  */
 .stylish .info-text{
   font-size: 16px;
-  color: #fff9f9;
+  color: #000000;
   margin: -3px 0 -10px;
 }
 
@@ -139,11 +139,11 @@ ul .word p{
 
 ul .word span{
   font-size: 12px;
-  color: #ffffff;
+  color: #000000;
 }
 
 ul .word i{
-  color: rgb(255, 255, 255);
+  color: #000000;
   font-size: 15px;
   cursor: pointer;
 }
@@ -171,5 +171,5 @@ ul .input::-webkit-scrollbar{
 
 .input li span{
   font-size: 18px;
-  color: #ffffff;
+  color: #000000;
 }
